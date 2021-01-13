@@ -1,5 +1,8 @@
 {
   "name": "watch-temp",
+  "engines": {
+    "node": "14.x"
+  },
   "version": "1.0.0",
   "description": "A program to measure the temperature and humidity of a room with DHT22",
   "main": "src/index.ts",
