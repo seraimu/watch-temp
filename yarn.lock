@@ -70,6 +70,18 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
+"@types/node-dht-sensor@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@types/node-dht-sensor/-/node-dht-sensor-0.4.0.tgz#1b347c2787f7e3fea926931169891949faaec08a"
+  integrity sha512-eCT7SZFaxKK8HRPn8W4dE8fD/ysO2rM4rkVySwVsVkWOv6co30IvDvnwmFey41zhA4LT8FOZybsUd5GWwGOXeA==
+  dependencies:
+    "@types/node" "*"
+
+"@types/node@*":
+  version "14.14.20"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.20.tgz#f7974863edd21d1f8a494a73e8e2b3658615c340"
+  integrity sha512-Y93R97Ouif9JEOWPIUyU+eyIdyRqQR0I8Ez1dzku4hDx34NWh4HbtIc3WNzwB1Y9ULvNGeu5B8h8bVL5cAk4/A==
+
 "@typescript-eslint/eslint-plugin@^4.13.0":
   version "4.13.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.13.0.tgz#5f580ea520fa46442deb82c038460c3dd3524bb6"
@@ -1061,6 +1073,18 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
+
+node-addon-api@^1.6.3:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-1.7.2.tgz#3df30b95720b53c24e59948b49532b662444f54d"
+  integrity sha512-ibPK3iA+vaY1eEjESkQkM0BbCqFOaZMiXRTtdB0u7b4djtY6JnsjvPdUHVMg6xQt3B8fpTTWHI9A+ADjM9frzg==
+
+node-dht-sensor@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/node-dht-sensor/-/node-dht-sensor-0.4.3.tgz#8f55bcab82836b4622c3cbd261f99b7bd576225b"
+  integrity sha512-DMJO6UjWiDF3WP0qAgzPXDAAMAT0VVedFbtCUU/jynIRPO2Sa+2zwA3d7ySriha87Tccd4e+kiJoOxSc9BkSKw==
+  dependencies:
+    node-addon-api "^1.6.3"
 
 normalize-package-data@^2.3.2:
   version "2.5.0"
