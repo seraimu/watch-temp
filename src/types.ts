@@ -15,4 +15,9 @@ export interface Config {
    * @description Time zone for cron
    */
   timezone: Timezone;
+
+  /**
+   * @description Don't output temperature and humidity logs
+   */
+  silent: boolean;
 }

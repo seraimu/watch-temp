@@ -24,6 +24,7 @@ try {
           dataPin: 'DATA PIN NUMBER HERE',
           schedule: '* * * ? * * *',
           timezone: 'Asia/Tokyo',
+          silent: false,
         },
         null,
         2,
@@ -51,11 +52,11 @@ cron.schedule(
     // Read sensor
     const data = await sensor.read(22, config.dataPin);
 
-    if (typeof data !== 'undefined') {
+    if (typeof data !== 'undefined' && config.silent) {
       // Logging
       console.log(
         `${new Date().toString()}
-        Temp: ${data.temperature}℃ Humdity: ${data.humidity}%`,
+          Temp: ${data.temperature}℃ Humdity: ${data.humidity}%`,
       );
     }
   },
