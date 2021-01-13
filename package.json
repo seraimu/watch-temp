@@ -1,0 +1,10 @@
+{
+  "name": "watch-temp",
+  "version": "1.0.0",
+  "description": "A program to measure the temperature and humidity of a room with DHT22",
+  "main": "src/index.ts",
+  "repository": "git@github.com:seraimu/watch-temp.git",
+  "author": "seraimu <seraimu.neko@outlook.jp>",
+  "license": "WTFPL",
+  "private": true
+}
