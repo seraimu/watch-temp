@@ -52,12 +52,14 @@ cron.schedule(
     // Read sensor
     const data = await sensor.read(22, config.dataPin);
 
-    if (typeof data !== 'undefined' && config.silent) {
-      // Logging
-      console.log(
-        `${new Date().toString()}
-          Temp: ${data.temperature}℃ Humdity: ${data.humidity}%`,
-      );
+    if (typeof data !== 'undefined') {
+      if (!config.silent) {
+        // Logging
+        console.log(
+          `${new Date().toString()}
+            Temp: ${data.temperature}℃ Humdity: ${data.humidity}%`,
+        );
+      }
     }
   },
   { timezone: config.timezone },
