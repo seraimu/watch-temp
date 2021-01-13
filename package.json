@@ -10,6 +10,9 @@
   "author": "seraimu <seraimu.neko@outlook.jp>",
   "license": "WTFPL",
   "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "@types/node-dht-sensor": "^0.4.0",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
