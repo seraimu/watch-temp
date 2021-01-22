@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/node-cron", "npm:2.0.3"],
             ["@types/node-dht-sensor", "npm:0.4.0"],
+            ["@types/tz-offset", "npm:0.0.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:f37a7d5bf6b039d7475785a91e56ee0f33e9df01a7014b7825db409c9bacafc7750fe94009a19ad22513070608e4ad381e385abc72905907600e58b69dcc1e11#npm:4.13.0"],
             ["@typescript-eslint/parser", "virtual:f37a7d5bf6b039d7475785a91e56ee0f33e9df01a7014b7825db409c9bacafc7750fe94009a19ad22513070608e4ad381e385abc72905907600e58b69dcc1e11#npm:4.13.0"],
             ["eslint", "npm:7.17.0"],
@@ -3408,6 +3409,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["watch-temp", "workspace:."],
             ["@types/node-cron", "npm:2.0.3"],
             ["@types/node-dht-sensor", "npm:0.4.0"],
+            ["@types/tz-offset", "npm:0.0.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:f37a7d5bf6b039d7475785a91e56ee0f33e9df01a7014b7825db409c9bacafc7750fe94009a19ad22513070608e4ad381e385abc72905907600e58b69dcc1e11#npm:4.13.0"],
             ["@typescript-eslint/parser", "virtual:f37a7d5bf6b039d7475785a91e56ee0f33e9df01a7014b7825db409c9bacafc7750fe94009a19ad22513070608e4ad381e385abc72905907600e58b69dcc1e11#npm:4.13.0"],
             ["eslint", "npm:7.17.0"],

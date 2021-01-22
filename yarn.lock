@@ -116,7 +116,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tz-offset@npm:*":
+"@types/tz-offset@npm:*, @types/tz-offset@npm:^0.0.0":
   version: 0.0.0
   resolution: "@types/tz-offset@npm:0.0.0"
   checksum: bf36bc5840821baf77120ab5cc585687af4a99f1f4186a32d64b989b9db9a33148199d665e0a6af984d7e3b2cbd1390ec456c4bc1c6e9f1a5241e8b04ea99f0e
@@ -2803,6 +2803,7 @@ typescript@^4.1.3:
   dependencies:
     "@types/node-cron": ^2.0.3
     "@types/node-dht-sensor": ^0.4.0
+    "@types/tz-offset": ^0.0.0
     "@typescript-eslint/eslint-plugin": ^4.13.0
     "@typescript-eslint/parser": ^4.13.0
     eslint: ^7.17.0

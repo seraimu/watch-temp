@@ -16,6 +16,7 @@
   "devDependencies": {
     "@types/node-cron": "^2.0.3",
     "@types/node-dht-sensor": "^0.4.0",
+    "@types/tz-offset": "^0.0.0",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
     "eslint": "^7.17.0",
